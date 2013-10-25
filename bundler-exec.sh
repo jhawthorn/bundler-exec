@@ -32,7 +32,7 @@ run-with-bundler()
 
 ## Main program
 
-BUNDLED_COMMANDS="${BUNDLED_COMMANDS:-
+BUNDLED_COMMANDS=(
 berks
 cap
 capify
@@ -70,7 +70,7 @@ tt
 turn
 unicorn
 unicorn_rails
-}"
+)
 
 for CMD in $BUNDLED_COMMANDS; do
     if [[ $CMD != "bundle" && $CMD != "gem" ]]; then
