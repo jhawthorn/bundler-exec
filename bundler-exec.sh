@@ -50,7 +50,9 @@ html2haml
 jasmine
 kitchen
 knife
+middleman
 pry
+rails
 rackup
 rake
 rake2thor
