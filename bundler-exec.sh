@@ -58,6 +58,7 @@ rake
 rake2thor
 rspec
 ruby
+rails
 sass
 sass-convert
 serve
